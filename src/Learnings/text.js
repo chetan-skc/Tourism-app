@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-export default function text() {
-    return (
-        <div>
-            <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Contact us</li>
-            </ul>
-        </div>
-    )
+class text extends React.Component {
+    render() {
+        return (
+            <table>
+                <th><button id="btn">Home</button></th>
+                <th><button id="btn">About us</button></th>
+                <th><button id="btn">Contact us</button></th>
+            </table>
+        );
+    }
 }
+
+export default text;
